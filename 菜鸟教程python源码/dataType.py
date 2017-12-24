@@ -15,3 +15,5 @@ a = b = c = 12;
 print(a,b,c);
 a,b,c = 12,22,33;
 print(a,b,c);
+
+# 数据类型
