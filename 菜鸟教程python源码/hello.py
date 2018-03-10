@@ -8,18 +8,28 @@ print("hello world!");
 '''
 # python 的代码块是以缩进控制的
 if True:
-	print("true");
+	print("true")
 else:
-	print("false");
+	print("false")
 
 # 多行语句：当一行写不下时，可以\放在行尾
-num1 = 2;
-num2 = 3;
+num1 = 2
+num2 = 3
 num3 = num1 +\
-	num2;
-print(num3);
-
-
+	num2
+print(num3)
+#多行字符串
+str = '''
+hello world
+hello world
+'''
+print(str)
+#print默认是添加换行的
+print(num1)
+print(num2)
+print("-----------------")
+print(num1, end="")
+print(num2)
 
 
 
