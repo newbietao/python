@@ -42,4 +42,13 @@ print("hello" + "world")
 # 字符串重复
 print("hello world" * 3)
 
+# list列表
+ll = ["hello", "world", "test1"]
+print(ll)
+print(ll[0])
+print(ll[1:2])
+print(ll+ll)
+print(ll * 3)
+
+
 
